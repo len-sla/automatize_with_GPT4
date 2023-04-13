@@ -94,11 +94,11 @@ Reason: directory in docker container ie /app was mapped to local with mp4 and b
 
 
  It was enough coping bash script rotate.sh in Dockerfile  to another directory ie /tools
- puting it to PATH worked like a char.
+ puting it to PATH worked like a charm :)).
  
  
 
-Then I checked rotated mp4 so they could played on some old fashioned mp4 player on TV.
+Then I checked and if necessary rotated mp4 so they could played on some old fashioned mp4 player on TV.
 new Dockerfile was like below
 
 
