@@ -128,9 +128,11 @@ RUN chmod +x /tools/rotate.sh
 
 CMD ["/bin/bash"]
  ```
-
-
-
+ 
+ and running docker with modified 
+ ```
+docker run --rm -v $(pwd)/path/to/mp4/video:/app mp4-rotator /tools/rotate.sh
+ ```
 ### Contact
 Created by: _lencz.sla@gmail.com_
 
