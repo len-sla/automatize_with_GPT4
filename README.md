@@ -79,6 +79,10 @@ docker run --rm -v $(pwd)/videos:/app mp4-rotator ./rotate.sh
 Here, we're running a container using the mp4-rotator image, mounting the videos directory as the working directory in the container, and running the rotate.sh script.
 
 This will create a subdirectory named rotated inside the videos directory and save all the rotated videos in that directory with the suffix _rotated.mp4. The original videos will still be in the videos directory.
+
+
+---
+
 This was not working as is because directory in docker container ie /app was mapped to local with mp4 and bask script could not be found with error like 
 
 
@@ -93,6 +97,7 @@ This was not working as is because directory in docker container ie /app was map
 
  Then I checked rotated mp4 so they could played on some old fashioned mp4 player on TV.
  new Dockerfile was like below
+---
 
  ```
  FROM ubuntu:latest
