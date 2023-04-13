@@ -83,7 +83,8 @@ This will create a subdirectory named rotated inside the videos directory and sa
 
 ---
 
-This was not working as is because directory in docker container ie /app was mapped to local with mp4 and bask script could not be found with error like 
+This was not working as is.
+Reason: directory in docker container ie /app was mapped to local with mp4 and bask script could not be found with error like 
 
 
 
@@ -92,12 +93,20 @@ This was not working as is because directory in docker container ie /app was map
  ```
 
 
- Though coping bash script totate.sh in Dockerfile  to another directory ie /tools
+ It was enough coping bash script rotate.sh in Dockerfile  to another directory ie /tools
  puting it to PATH worked like a char.
+ 
+ 
 
- Then I checked rotated mp4 so they could played on some old fashioned mp4 player on TV.
- new Dockerfile was like below
+Then I checked rotated mp4 so they could played on some old fashioned mp4 player on TV.
+new Dockerfile was like below
+
+
+
 ---
+
+
+
 
  ```
  FROM ubuntu:latest
