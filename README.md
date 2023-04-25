@@ -1,11 +1,11 @@
 ## Project Name Using GPT4 to automise boring tasks
-Given task to GPT4: with usage of  docker : in working directory check which of mp4 files are rotated and  if necessary  with the help of script using docker rotate them . Save result in subdirectory adding to to source mp4 name 'rotated" explain script and code step ny step
+Given task to GPT4: with usage of  docker : in working directory check which of mp4 files are rotated and  if necessary  with the help of script using docker rotate them . Save result in subdirectory adding to to source mp4 name 'rotated" explain script and code step by step
 
 ---
 
 
 
-Sure, I can guide you through the process of completing this task using Docker. Here are the steps:
+
 First, we need to create a Docker image that has all the necessary tools and dependencies for our script to run. For this, we'll create a Dockerfile with the following content:
 
 
