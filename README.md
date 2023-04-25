@@ -84,7 +84,7 @@ This will create a subdirectory named rotated inside the videos directory and sa
 ---
 
 This was not working as is.
-Reason: directory in docker container ie /app was mapped to local with mp4 and bask script could not be found with error like 
+Reason: directory in docker container ie /app was mapped to local with mp4 and bash script could not be found with error like 
 
 
 
